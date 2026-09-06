@@ -1,5 +1,12 @@
 # Science workbench
 
+![Simulated neuron voltage and firing rates](results/neuron.png)
+
+## Reproduce on another computer
+Use Python 3.13 and a separate virtual environment. Install `requirements-lock.txt` with pip (or `uv pip install -r requirements-lock.txt`). Run `python neuron_lab.py` from this folder. Run `python -m ipykernel install --user --name science-workbench --display-name "Science Workbench"` and `python -m jupyterlab` to use the notebook. The fixed sweep can take a few minutes on a laptop using the portable NumPy backend; no GPU or C++ compiler is required.
+
+Baseline result: 14 runs, no firing below threshold, maximum analytic rate discrepancy 0.3593 Hz, and no measured rate difference between the two tested time steps. Finite-window spike counts have limited resolution; matching rates does not establish identical spike timing.
+
 Start with `01_neuron_and_sql.ipynb` in JupyterLab. Run one cell with Shift+Enter.
 Launch JupyterLab using the Desktop `Start Science Lab.cmd` launcher.
 Alternatively open this folder in VS Code and select `.venv/Scripts/python.exe`.
