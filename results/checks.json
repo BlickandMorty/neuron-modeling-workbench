@@ -1,0 +1,8 @@
+{
+  "below_threshold_silent": true,
+  "max_dt_difference_hz": 0.0,
+  "max_analytic_difference_hz": 0.35928836981788237,
+  "python": "3.13.14",
+  "brian2": "2.10.1",
+  "data_origin": "simulation; no biological recordings"
+}
