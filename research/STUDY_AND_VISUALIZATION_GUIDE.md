@@ -1,6 +1,6 @@
 # Study, reproduction, and visual reasoning guide
 
-Updated September 7, 2026. This is the entry point for learning every local
+Updated September 7, 2026. This is the science study entry point for learning every
 experiment and then replacing the teaching assumptions with models I can
 explain. The existing lessons and results are preserved. This guide adds a map
 through them; it does not replace their evidence or turn them into validated
@@ -155,6 +155,8 @@ negative results alongside improvements.
   interpretation templates.
 - Requirement receipts and environment folders: the current software state.
 
-The work remains local, AI-assisted study material. Independent proficiency is
+The workbench is now [public on GitHub](https://github.com/BlickandMorty/neuron-modeling-workbench), while new runs and personal notes remain local until deliberately published. This is the neuroscience branch of a broader math-and-scientific-modeling direction, separate from the AI/software and defensive-security study paths. Broader science topics are future extensions, not completed experiments.
+
+This remains AI-assisted learning work. Independent proficiency is
 earned by reproducing, modifying, checking, and explaining the models, not by
 the presence of the files.

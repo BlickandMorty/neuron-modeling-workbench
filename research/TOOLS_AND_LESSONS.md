@@ -1,6 +1,6 @@
 # My neuroscience tools and practice guide
 
-Updated September 7, 2026 (America/Chicago). This extends the Desktop `SCIENCE_SKILLS_AND_PROJECTS.md`; it does not replace the older AI, security or career guides. These are local learning projects. Installing a tool or running AI-assisted code is not the same as being proficient in it.
+Updated September 7, 2026 (America/Chicago). This extends the Desktop `SCIENCE_SKILLS_AND_PROJECTS.md`; it does not replace the older AI, security or career guides. The workbench is now public; calculations run locally and new outputs are not automatically published. Use `STUDY_AND_VISUALIZATION_GUIDE.md` for the lesson sequence and this document for per-tool practice. Installing a tool or running AI-assisted code is not the same as being proficient in it.
 
 ## Where to start
 
