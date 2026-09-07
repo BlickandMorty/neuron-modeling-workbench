@@ -1,0 +1,30 @@
+{
+  "no_input": {
+    "spikes": 0,
+    "spike_times_ms": [],
+    "peak_mV": -64.9928397026715
+  },
+  "baseline": {
+    "spikes": 4,
+    "spike_times_ms": [
+      11.925,
+      26.825,
+      41.475,
+      56.125
+    ],
+    "peak_mV": 40.22863343720914
+  },
+  "half_sodium": {
+    "spikes": 1,
+    "spike_times_ms": [
+      12.65
+    ],
+    "peak_mV": 27.206469313495166
+  },
+  "no_sodium": {
+    "spikes": 0,
+    "spike_times_ms": [],
+    "peak_mV": -56.08175717136606
+  },
+  "solver_max_voltage_difference_mV": 1.0056087518250933e-08
+}

@@ -1,0 +1,6 @@
+{
+  "finite": true,
+  "matching_time_grids": true,
+  "deterministic_repeat": true,
+  "finer_step_tolerance": true
+}

@@ -1,0 +1,107 @@
+{
+  "model_version": "teaching-ei-0.1.0",
+  "source_url": "https://brian2.readthedocs.io/en/2.10.1/examples/frompapers.Wang_2002.html",
+  "source_sha256": "133910b5dc1bee532ab38deb7989a14046c9e1b19fa0ff76113c4e150bbd3c46",
+  "environment": {
+    "python": "3.13.14",
+    "brian2": "2.10.1",
+    "numpy": "2.5.2"
+  },
+  "data_origin": "simulation",
+  "boundary": "Synthetic circuit; no human recordings, clinical dose, PTSD diagnosis, or treatment prediction.",
+  "prediction": "Changing size can change fluctuations and attractor entry despite constant total coupling; direction unspecified.",
+  "interpretation": "Not yet written by learner",
+  "variant": "inhibition",
+  "variant_scale": 0.85,
+  "seeds": [
+    11,
+    22,
+    33
+  ],
+  "configurations": {
+    "reference_control": {
+      "n_e": 400,
+      "n_i": 100,
+      "duration_ms": 2000.0,
+      "dt_ms": 0.1,
+      "record_ms": 1.0,
+      "seed": 11,
+      "block_e": 0.0,
+      "block_i": 0.0,
+      "excitation_scale": 1.0,
+      "inhibition_scale": 1.0,
+      "external_scale": 1.0,
+      "stimulus_pa": 150.0,
+      "stimulus_on_ms": 800.0,
+      "stimulus_off_ms": 900.0
+    },
+    "reference_perturbed": {
+      "n_e": 400,
+      "n_i": 100,
+      "duration_ms": 2000.0,
+      "dt_ms": 0.1,
+      "record_ms": 1.0,
+      "seed": 11,
+      "block_e": 0.1,
+      "block_i": 0.3,
+      "excitation_scale": 1.0,
+      "inhibition_scale": 1.0,
+      "external_scale": 1.0,
+      "stimulus_pa": 150.0,
+      "stimulus_on_ms": 800.0,
+      "stimulus_off_ms": 900.0
+    },
+    "variant_control": {
+      "n_e": 400,
+      "n_i": 100,
+      "duration_ms": 2000.0,
+      "dt_ms": 0.1,
+      "record_ms": 1.0,
+      "seed": 11,
+      "block_e": 0.0,
+      "block_i": 0.0,
+      "excitation_scale": 1.0,
+      "inhibition_scale": 0.85,
+      "external_scale": 1.0,
+      "stimulus_pa": 150.0,
+      "stimulus_on_ms": 800.0,
+      "stimulus_off_ms": 900.0
+    },
+    "variant_perturbed": {
+      "n_e": 400,
+      "n_i": 100,
+      "duration_ms": 2000.0,
+      "dt_ms": 0.1,
+      "record_ms": 1.0,
+      "seed": 11,
+      "block_e": 0.1,
+      "block_i": 0.3,
+      "excitation_scale": 1.0,
+      "inhibition_scale": 0.85,
+      "external_scale": 1.0,
+      "stimulus_pa": 150.0,
+      "stimulus_on_ms": 800.0,
+      "stimulus_off_ms": 900.0
+    }
+  },
+  "status": "complete",
+  "checks": {
+    "finite_outputs": true,
+    "clinical_validation": false
+  },
+  "artifacts_sha256": {
+    "metrics.csv": "4ca45de35b1d72f77ac86d8958e2493f9b652a2fe46e24f2a10e51f1568fa4ec",
+    "reference_control_seed11.npz": "6d85a8dd0cd734b4bb6ca3b50e78ac15077abcf1299bcbd77b466793737db64b",
+    "reference_control_seed22.npz": "6b841fe2ed973f9bc836b87f023cef125fa50194babebfa85ac849224119b960",
+    "reference_control_seed33.npz": "b1e4fe816bbcbe68da667c5ba75f6dbbb7f1f8721b1fa2fd49d833ed907c3bca",
+    "reference_perturbed_seed11.npz": "cb43c24fbcc61b91f21a9981af2bbba48b55dae763400e71688b6bc1c363c8c6",
+    "reference_perturbed_seed22.npz": "4b23302db09b683a700e7338aafbc8974f42be573e15282587b82d83fa3b4d48",
+    "reference_perturbed_seed33.npz": "9e4c05ba4386ded7f2af3ed456b59bcde311bd3cbc89b54d9c21418a14883f72",
+    "variant_control_seed11.npz": "588ae38fd1dc060bc5f50731af902fed03b99e7367cadf374820e791b816c24e",
+    "variant_control_seed22.npz": "e33561941ddd816e186bb3d345745f42bc4a5a632131f9a824823e941f3388a1",
+    "variant_control_seed33.npz": "82496a7da2d2e3914d21ba8d2cbec3dbba5de48859e36b74f431f14372596eca",
+    "variant_perturbed_seed11.npz": "029a052618671320c72846be499bb3642a79cb27d91ee5503c7ca951eee38d47",
+    "variant_perturbed_seed22.npz": "beb15032ed32d169588371a1204a6d0f0d896a567841b47c2cebb1873bdc500f",
+    "variant_perturbed_seed33.npz": "441e320194ce91fab6f76594593e04a0456139beef209e467fb4eaf9b124383f"
+  }
+}

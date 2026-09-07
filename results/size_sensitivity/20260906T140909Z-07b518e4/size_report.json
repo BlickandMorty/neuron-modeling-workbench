@@ -1,0 +1,163 @@
+{
+  "status": "complete",
+  "question": "Does post-input firing depend materially on circuit size?",
+  "prediction": "Changing size can change fluctuations and attractor entry despite constant total coupling; direction unspecified.",
+  "protocol": "100, 250, 500 cells; 80:20 E:I; four conditions; seeds 11,22,33; dt 0.1 ms; no parameter tuning.",
+  "stopping_rule": "Finish this fixed grid once. Preserve any size-dependent shifts; do not select a favorable size.",
+  "source_sha256": "133910b5dc1bee532ab38deb7989a14046c9e1b19fa0ff76113c4e150bbd3c46",
+  "experiment_source_sha256": "39ba0b23052a1ecb9995552a89549668a4e9af5fdf31e4097f48f1004f0eaff9",
+  "model_version": "teaching-ei-0.1.0",
+  "runs": {
+    "100": {
+      "path": "results\\circuit\\20260906T032257Z-4791e73e",
+      "reused": true
+    },
+    "250": {
+      "path": "results\\circuit\\20260906T140909Z-bcb3d308",
+      "reused": false
+    },
+    "500": {
+      "path": "results\\circuit\\20260906T141038Z-7acc05cd",
+      "reused": false
+    }
+  },
+  "baseline_status": "100-cell results already inspected before this size protocol; not a blinded/preregistered baseline.",
+  "boundary": "Same homogeneous local circuit, not additional brain regions. Same seed numbers across sizes do not mean identical inputs. No patient inference.",
+  "comparisons_to_100": [
+    {
+      "cells": 250,
+      "condition": "reference_control",
+      "cell": "e",
+      "difference_hz": 0.7583333333333331,
+      "descriptive_threshold_hz": 2.0,
+      "flagged": false
+    },
+    {
+      "cells": 250,
+      "condition": "reference_control",
+      "cell": "i",
+      "difference_hz": 0.47777777777777697,
+      "descriptive_threshold_hz": 2.0,
+      "flagged": false
+    },
+    {
+      "cells": 250,
+      "condition": "reference_perturbed",
+      "cell": "e",
+      "difference_hz": 10.445370370370384,
+      "descriptive_threshold_hz": 12.313657407407407,
+      "flagged": false
+    },
+    {
+      "cells": 250,
+      "condition": "reference_perturbed",
+      "cell": "i",
+      "difference_hz": 0.10740740740740762,
+      "descriptive_threshold_hz": 10.143518518518519,
+      "flagged": false
+    },
+    {
+      "cells": 250,
+      "condition": "variant_control",
+      "cell": "e",
+      "difference_hz": 1.7888888888888885,
+      "descriptive_threshold_hz": 2.0,
+      "flagged": false
+    },
+    {
+      "cells": 250,
+      "condition": "variant_control",
+      "cell": "i",
+      "difference_hz": 2.3888888888888875,
+      "descriptive_threshold_hz": 2.6435185185185186,
+      "flagged": false
+    },
+    {
+      "cells": 250,
+      "condition": "variant_perturbed",
+      "cell": "e",
+      "difference_hz": 9.023148148148152,
+      "descriptive_threshold_hz": 14.174768518518519,
+      "flagged": false
+    },
+    {
+      "cells": 250,
+      "condition": "variant_perturbed",
+      "cell": "i",
+      "difference_hz": -0.274074074074079,
+      "descriptive_threshold_hz": 12.314814814814815,
+      "flagged": false
+    },
+    {
+      "cells": 500,
+      "condition": "reference_control",
+      "cell": "e",
+      "difference_hz": 1.0694444444444444,
+      "descriptive_threshold_hz": 2.0,
+      "flagged": false
+    },
+    {
+      "cells": 500,
+      "condition": "reference_control",
+      "cell": "i",
+      "difference_hz": 0.7629629629629617,
+      "descriptive_threshold_hz": 2.0,
+      "flagged": false
+    },
+    {
+      "cells": 500,
+      "condition": "reference_perturbed",
+      "cell": "e",
+      "difference_hz": 16.847222222222236,
+      "descriptive_threshold_hz": 12.313657407407407,
+      "flagged": true
+    },
+    {
+      "cells": 500,
+      "condition": "reference_perturbed",
+      "cell": "i",
+      "difference_hz": -0.2592592592592595,
+      "descriptive_threshold_hz": 10.143518518518519,
+      "flagged": false
+    },
+    {
+      "cells": 500,
+      "condition": "variant_control",
+      "cell": "e",
+      "difference_hz": 1.912037037037037,
+      "descriptive_threshold_hz": 2.0,
+      "flagged": false
+    },
+    {
+      "cells": 500,
+      "condition": "variant_control",
+      "cell": "i",
+      "difference_hz": 2.3407407407407383,
+      "descriptive_threshold_hz": 2.6435185185185186,
+      "flagged": false
+    },
+    {
+      "cells": 500,
+      "condition": "variant_perturbed",
+      "cell": "e",
+      "difference_hz": 16.7574074074074,
+      "descriptive_threshold_hz": 14.174768518518519,
+      "flagged": true
+    },
+    {
+      "cells": 500,
+      "condition": "variant_perturbed",
+      "cell": "i",
+      "difference_hz": -1.0222222222222257,
+      "descriptive_threshold_hz": 12.314814814814815,
+      "flagged": false
+    }
+  ],
+  "flag_rule": "abs(mean difference) > max(2 Hz, 25% of 100-cell mean); chosen before larger runs. Descriptive flag, not a significance test or convergence certificate.",
+  "flagged_comparisons": 2,
+  "artifacts_sha256": {
+    "metrics.csv": "e7c4f117dd7f54f5e64717b526b219c3f2515e7b68a81ac575636e7b6e1d59b0",
+    "size_comparison.png": "597c5dbf3d83eb2391488bd86ddeb726ec233e39ee0c5d2f1687741a1b0dab55",
+    "summary.csv": "34ee53224ced64cd15fba0d4826770db653d037d84fbfe35d75f246d3a4e05c4"
+  }
+}

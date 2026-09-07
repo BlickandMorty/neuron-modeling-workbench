@@ -1,0 +1,19 @@
+{
+  "source_run": "results\\multiscale\\20260907T013444Z-brain_regions-0b402927",
+  "centres_shape": [
+    76,
+    3
+  ],
+  "activity_shape": [
+    500,
+    76
+  ],
+  "time_range_ms": [
+    0.5,
+    499.5
+  ],
+  "region_count": 76,
+  "animation_frames": 50,
+  "value_limit_model_units": 1.0470724035768708,
+  "interpretation_boundary": "An anatomy-aware display of a saved abstract regional oscillator model; not membrane voltage, electric current, EEG, fMRI, or patient data."
+}

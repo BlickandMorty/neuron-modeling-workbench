@@ -1,0 +1,9 @@
+model enzyme()
+      compartment cell=1;
+      species E in cell, S in cell, ES in cell, P in cell;
+      J1: E + S -> ES; k1*E*S;
+      J2: ES -> E + S; km1*ES;
+      J3: ES -> E + P; kcat*ES;
+      E=1; S=100; ES=0; P=0;
+      k1=0.01; km1=0.1; kcat=0.2;
+    end

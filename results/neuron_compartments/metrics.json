@@ -1,0 +1,8 @@
+{
+  "samples": 801,
+  "soma_peak_mv": 33.15737786348284,
+  "middle_peak_mv": 21.343413298410564,
+  "tip_peak_mv": 18.159720327304253,
+  "peak_attenuation_mv": 14.99765753617859,
+  "finer_tip_max_abs_difference_mv": 0.033436275118608805
+}

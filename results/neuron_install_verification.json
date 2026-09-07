@@ -1,0 +1,8 @@
+{
+  "neuron_version": "NEURON -- VERSION 9.0.2 HEAD (ba57833+) 2026-08-10",
+  "samples": 801,
+  "soma_peak_mv": 33.71654794176342,
+  "dendrite_peak_mv": 18.01012416549727,
+  "end_time_ms": 19.9999999999994,
+  "custom_mechanism": "linearleak loaded"
+}

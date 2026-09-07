@@ -1,0 +1,107 @@
+{
+  "model_version": "teaching-ei-0.1.0",
+  "source_url": "https://brian2.readthedocs.io/en/2.10.1/examples/frompapers.Wang_2002.html",
+  "source_sha256": "133910b5dc1bee532ab38deb7989a14046c9e1b19fa0ff76113c4e150bbd3c46",
+  "environment": {
+    "python": "3.13.14",
+    "brian2": "2.10.1",
+    "numpy": "2.5.2"
+  },
+  "data_origin": "simulation",
+  "boundary": "Synthetic circuit; no human recordings, clinical dose, PTSD diagnosis, or treatment prediction.",
+  "prediction": "Resolution check: mean post-input rates should remain within max(2 Hz, 25%) of dt=0.1 ms.",
+  "interpretation": "Not yet written by learner",
+  "variant": "inhibition",
+  "variant_scale": 0.85,
+  "seeds": [
+    11,
+    22,
+    33
+  ],
+  "configurations": {
+    "reference_control": {
+      "n_e": 80,
+      "n_i": 20,
+      "duration_ms": 2000.0,
+      "dt_ms": 0.05,
+      "record_ms": 1.0,
+      "seed": 11,
+      "block_e": 0.0,
+      "block_i": 0.0,
+      "excitation_scale": 1.0,
+      "inhibition_scale": 1.0,
+      "external_scale": 1.0,
+      "stimulus_pa": 150.0,
+      "stimulus_on_ms": 800.0,
+      "stimulus_off_ms": 900.0
+    },
+    "reference_perturbed": {
+      "n_e": 80,
+      "n_i": 20,
+      "duration_ms": 2000.0,
+      "dt_ms": 0.05,
+      "record_ms": 1.0,
+      "seed": 11,
+      "block_e": 0.1,
+      "block_i": 0.3,
+      "excitation_scale": 1.0,
+      "inhibition_scale": 1.0,
+      "external_scale": 1.0,
+      "stimulus_pa": 150.0,
+      "stimulus_on_ms": 800.0,
+      "stimulus_off_ms": 900.0
+    },
+    "variant_control": {
+      "n_e": 80,
+      "n_i": 20,
+      "duration_ms": 2000.0,
+      "dt_ms": 0.05,
+      "record_ms": 1.0,
+      "seed": 11,
+      "block_e": 0.0,
+      "block_i": 0.0,
+      "excitation_scale": 1.0,
+      "inhibition_scale": 0.85,
+      "external_scale": 1.0,
+      "stimulus_pa": 150.0,
+      "stimulus_on_ms": 800.0,
+      "stimulus_off_ms": 900.0
+    },
+    "variant_perturbed": {
+      "n_e": 80,
+      "n_i": 20,
+      "duration_ms": 2000.0,
+      "dt_ms": 0.05,
+      "record_ms": 1.0,
+      "seed": 11,
+      "block_e": 0.1,
+      "block_i": 0.3,
+      "excitation_scale": 1.0,
+      "inhibition_scale": 0.85,
+      "external_scale": 1.0,
+      "stimulus_pa": 150.0,
+      "stimulus_on_ms": 800.0,
+      "stimulus_off_ms": 900.0
+    }
+  },
+  "status": "complete",
+  "checks": {
+    "finite_outputs": true,
+    "clinical_validation": false
+  },
+  "artifacts_sha256": {
+    "metrics.csv": "4d13e977e82239d0a1d0d200d3146f7142b954168f3e628cba260c8486b62047",
+    "reference_control_seed11.npz": "5eeeaffa577f94663875779ea68cf1290399a255a376b84995b32e4a9fd005a4",
+    "reference_control_seed22.npz": "311b2e7ad13f2d3600d2045519427aac5d495b63c7e4bc0c4552c78ea4045353",
+    "reference_control_seed33.npz": "86a6c9b19e6c197c42f64e29d51874c871afa2621ad331845730eed1b98e14f4",
+    "reference_perturbed_seed11.npz": "416b8e998e178bb0cad0fceb7437a5bc3948a5ea2efa16584d2f365b2ee34955",
+    "reference_perturbed_seed22.npz": "366bfd02bdd4e50093179c16874d933138add6766981e2a56a7ab6d556af3033",
+    "reference_perturbed_seed33.npz": "74eff722a2237801443279fa731bb99820f5aa9ee48e92be81067f6c3b026f1a",
+    "variant_control_seed11.npz": "4c942d5104312e24f859cd014253e5a25bc68f4b8776b38208657055b80de128",
+    "variant_control_seed22.npz": "9bee2ba62f020afa5f56e653ee3680974209507f475970cc986223f4bb2c4b4c",
+    "variant_control_seed33.npz": "fd65052f58b8dbe0e0bc7cce69cf568f549c67e43e7a9323dd1d1232fc481bfe",
+    "variant_perturbed_seed11.npz": "b4056371af101d89293c5cd78797201830b99b0d55f14fe90d756f65ab207711",
+    "variant_perturbed_seed22.npz": "36a071fc0a686a61d66f01bcf26190515d60d6727cbe8f0cebd254208331c206",
+    "variant_perturbed_seed33.npz": "9482be8174ebb1e25abe1632e2cfd4264743dff53d0ca6227a881923d39ddf58"
+  }
+}

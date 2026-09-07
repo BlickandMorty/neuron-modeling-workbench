@@ -1,6 +1,11 @@
 .venv/
+.venv-*/
 __pycache__/
 .ipynb_checkpoints/
+*.executed.ipynb
 MY_NOTES.md
 *.log
 .vscode/
+mechanisms/*.cpp
+mechanisms/*.o
+mechanisms/*.dll

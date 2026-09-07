@@ -1,0 +1,83 @@
+{
+  "protocol": "post-input mean rate comparison across 3 seeds; threshold max(2 Hz, 25% coarse mean)",
+  "coarse_run": "C:\\Users\\jojo\\Projects\\science-workbench\\results\\circuit\\20260906T032257Z-4791e73e",
+  "fine_run": "C:\\Users\\jojo\\Projects\\science-workbench\\results\\circuit\\20260906T032858Z-16826dc0",
+  "no_input_run": "C:\\Users\\jojo\\Projects\\science-workbench\\results\\circuit\\20260906T033031Z-7e47e017",
+  "resolution_checks": [
+    {
+      "condition": "reference_control",
+      "metric": "e_post_hz",
+      "coarse_mean": 1.2916666666666667,
+      "fine_mean": 1.25,
+      "difference": -0.04166666666666674,
+      "tolerance": 2.0,
+      "within_tolerance": true
+    },
+    {
+      "condition": "reference_control",
+      "metric": "i_post_hz",
+      "coarse_mean": 7.9444444444444455,
+      "fine_mean": 7.777777777777779,
+      "difference": -0.16666666666666696,
+      "tolerance": 2.0,
+      "within_tolerance": true
+    },
+    {
+      "condition": "reference_perturbed",
+      "metric": "e_post_hz",
+      "coarse_mean": 49.254629629629626,
+      "fine_mean": 49.56018518518519,
+      "difference": 0.30555555555556424,
+      "tolerance": 12.313657407407407,
+      "within_tolerance": true
+    },
+    {
+      "condition": "reference_perturbed",
+      "metric": "i_post_hz",
+      "coarse_mean": 40.574074074074076,
+      "fine_mean": 40.888888888888886,
+      "difference": 0.31481481481480955,
+      "tolerance": 10.143518518518519,
+      "within_tolerance": true
+    },
+    {
+      "condition": "variant_control",
+      "metric": "e_post_hz",
+      "coarse_mean": 1.9074074074074077,
+      "fine_mean": 2.1435185185185186,
+      "difference": 0.23611111111111094,
+      "tolerance": 2.0,
+      "within_tolerance": true
+    },
+    {
+      "condition": "variant_control",
+      "metric": "i_post_hz",
+      "coarse_mean": 10.574074074074074,
+      "fine_mean": 10.90740740740741,
+      "difference": 0.3333333333333357,
+      "tolerance": 2.6435185185185186,
+      "within_tolerance": true
+    },
+    {
+      "condition": "variant_perturbed",
+      "metric": "e_post_hz",
+      "coarse_mean": 56.699074074074076,
+      "fine_mean": 56.481481481481474,
+      "difference": -0.21759259259260233,
+      "tolerance": 14.174768518518519,
+      "within_tolerance": true
+    },
+    {
+      "condition": "variant_perturbed",
+      "metric": "i_post_hz",
+      "coarse_mean": 49.25925925925926,
+      "fine_mean": 48.94444444444445,
+      "difference": -0.31481481481480955,
+      "tolerance": 12.314814814814815,
+      "within_tolerance": true
+    }
+  ],
+  "all_rate_checks_pass": true,
+  "zero_perturbation_identity_exact": true,
+  "limits": "Not convergence of spike timing, spectra, phase transitions, network size or clinical behavior. Different dt has different random draws."
+}

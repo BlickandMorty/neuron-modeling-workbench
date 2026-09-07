@@ -1,0 +1,6 @@
+{
+  "active_soma_spiked": true,
+  "dendritic_tip_depolarized": true,
+  "tip_peak_below_soma_peak": true,
+  "resolution_difference_below_1_mv": true
+}

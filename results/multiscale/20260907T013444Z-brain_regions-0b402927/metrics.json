@@ -1,0 +1,8 @@
+{
+  "regions": 76,
+  "coupling_trajectory_RMS_model_units": 0.006400769196629817,
+  "repeat_max_abs_error": 0.0,
+  "finer_step_RMS_model_units": 0.0004386201932344686,
+  "mean_spatial_SD_uncoupled": 0.23618754859240002,
+  "mean_spatial_SD_coupled": 0.23684213519315786
+}

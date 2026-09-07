@@ -1,0 +1,9 @@
+{
+  "finite": true,
+  "gates_bounded": true,
+  "no_input_silent": true,
+  "no_sodium_silent": true,
+  "baseline_spikes": true,
+  "finer_solver_voltage": true,
+  "finer_solver_spike_count": true
+}

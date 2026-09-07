@@ -1,0 +1,8 @@
+{
+  "1_conservation": true,
+  "1_nonnegative": true,
+  "1_independent_solver": true,
+  "20_conservation": true,
+  "20_nonnegative": true,
+  "20_independent_solver": true
+}

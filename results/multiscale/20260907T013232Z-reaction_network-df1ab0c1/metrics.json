@@ -1,0 +1,14 @@
+{
+  "1": {
+    "max_product_approximation_error_uM": 0.13863014857767375,
+    "max_conservation_error_uM": 6.991740519879386e-12,
+    "max_independent_solver_error_uM": 1.407598624325601e-07,
+    "final_product_uM": 14.953328428809572
+  },
+  "20": {
+    "max_product_approximation_error_uM": 5.07670864680432,
+    "max_conservation_error_uM": 4.242934892317862e-10,
+    "max_independent_solver_error_uM": 2.4132492626449675e-07,
+    "final_product_uM": 99.94946305795447
+  }
+}
