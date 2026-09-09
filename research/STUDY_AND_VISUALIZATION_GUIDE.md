@@ -6,6 +6,8 @@ explain. The existing lessons and results are preserved. This guide adds a map
 through them; it does not replace their evidence or turn them into validated
 biological findings.
 
+For the separate computational-biology path that studies protein identity, assay evidence and database records rather than simulations, use [BIOACTIVITY_TARGET_CURATION_TRACK.md](BIOACTIVITY_TARGET_CURATION_TRACK.md). The same evidence discipline applies, but the questions and tools are different.
+
 ## The central idea
 
 A simulation is a sequence of translations:

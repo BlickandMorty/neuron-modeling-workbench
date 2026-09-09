@@ -45,6 +45,12 @@ is the best starting point if I want to understand and eventually rebuild the
 models myself. The [tool guide](research/TOOLS_AND_LESSONS.md) contains the
 longer exercises and exact setup commands.
 
+## Bioactivity target curation
+
+This workbench also contains a separate [bioactivity target curation track](research/BIOACTIVITY_TARGET_CURATION_TRACK.md): how to reconcile a public ChEMBL, BindingDB or PubChem bioactivity record with its primary paper/patent and a UniProt protein entry. It is a chemistry/biochemistry/chemical-biology learning route, adjacent to drug discovery, and complements rather than replaces the neuroscience lessons.
+
+The track focuses on source evidence, assay interpretation, organism/isoform/construct identity, accession mapping, and reproducible review tables. It does not claim bench assay, biotech/pharma/CRO, or professional target-validation experience.
+
 ## A few of the saved results
 
 ### Ion channels
